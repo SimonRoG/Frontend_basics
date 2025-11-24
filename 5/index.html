@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Прохода СС, ІП-з31</title>
+</head>
+
+<body>
+    <form onsubmit="return checkFormat()">
+        <input type="text" name="name" placeholder="Прохода С.С."> <br>
+        <input type="text" name="group" placeholder="ІП-з31"> <br>
+        <input type="text" name="number" placeholder="0991234567"> <br>
+        <input type="text" name="faculty" placeholder="ФІОТ"> <br>
+        <input type="text" name="city" placeholder="Київ"> <br>
+        <input type="submit" value="Відправити">
+    </form>
+
+    <input type="color" name="color">
+
+    <table border="1">
+        <script>
+            const n = 6; 
+            let table = '';
+            for (let i = 0; i < n; i++) {
+                table += '<tr>';
+                for (let j = 0; j < n; j++) {
+                    table += `<td>${i * n + j + 1}</td>`;
+                }
+                table += '</tr>';
+            }
+            document.write(table);
+        </script>
+    </table>
+</body>
+
+</html>
