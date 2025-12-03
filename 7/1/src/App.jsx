@@ -1,7 +1,11 @@
 import kyivPic from './assets/Kyiv.jpg'
 import './App.css'
+import React from 'react'
+import { ButtonAdd, ButtonBigger, ButtonSmaller, ButtonRemove } from './Buttons.jsx'
 
 function App() {
+	const kyivfoto = React.useRef(null);
+
 	return (
 		<>
 			<h2>Прохода Семен Сергійович</h2>
@@ -36,13 +40,13 @@ function App() {
 				Україні.{" "}
 			</p>
 			<a href="https://kyivcity.gov.ua/">
-				<img id="kyivfoto" src={kyivPic} alt="Київ" />
+				<img ref={kyivfoto} id="kyivfoto" src={kyivPic} alt="Київ" />
 			</a>
 			<div id="btns">
-				<button onclick="addFoto()">Додати</button>
-				<button onclick="biggerFoto()">Збільшити</button>
-				<button onclick="smallerFoto()">Зменшити</button>
-				<button onclick="removeFoto()">Видалити</button>
+				<ButtonAdd kyivfoto={kyivfoto} />
+				<ButtonBigger kyivfoto={kyivfoto} />
+				<ButtonSmaller kyivfoto={kyivfoto} />
+				<ButtonRemove kyivfoto={kyivfoto} />
 			</div>
 		</>
 	)
