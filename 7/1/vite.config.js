@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: "/Frontend_basics_React/7/1"
+	base: "/Frontend_basics/7/1"
 })
