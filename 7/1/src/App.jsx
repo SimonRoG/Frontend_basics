@@ -5,6 +5,8 @@ import { ButtonAdd, ButtonBigger, ButtonSmaller, ButtonRemove } from './Buttons.
 
 function App() {
 	const kyivfoto = React.useRef(null);
+	const [changed1, setChanged1] = React.useState(false);
+	const [changed2, setChanged2] = React.useState(false);
 
 	return (
 		<>
@@ -12,8 +14,20 @@ function App() {
 			<p>Народжений: дд.мм.рррр, м. Луганськ</p>
 			<h3>Освіта:</h3>
 			<ul>
-				<li id="education">Гімназія , м. Київ</li>
-				<li id="education2">НТУУ КПІ, м. Київ</li>
+				<li
+					id="education"
+					className={changed1 ? "changed1" : ""}
+					onClick={() => setChanged1((v) => !v)}
+				>
+					Гімназія , м. Київ
+				</li>
+				<li
+					id="education2"
+					className={changed2 ? "changed2" : ""}
+					onClick={() => setChanged2((v) => !v)}
+				>
+					НТУУ КПІ, м. Київ
+				</li>
 			</ul>
 			<h3>Хобі:</h3>
 			<ul>
