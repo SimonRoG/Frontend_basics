@@ -2,3 +2,10 @@ html {
     max-width: 1000px;
     margin: auto;
 }
+
+#goods {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
