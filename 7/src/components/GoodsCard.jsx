@@ -1,5 +1,5 @@
 import React from 'react';
-import './GoodsCard.css';
+import './css/GoodsCard.css';
 
 const GoodsCard = ({ imgSrc, name, price }) => (
 	<div className="goodscard">

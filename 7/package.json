@@ -1,6 +1,6 @@
 {
-	"name": "1",
-	"homepage": "https://simonrog.github.io/Frontend_basics/7/1",
+	"name": "laba7",
+	"homepage": "https://simonrog.github.io/Frontend_basics/7",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -10,12 +10,13 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist -b deploy --dest 7/1"
+		"deploy": "gh-pages -d dist -b deploy --dest 7"
 	},
 	"dependencies": {
-		"gh-pages": "^6.3.0",
 		"react": "^19.2.0",
-		"react-dom": "^19.2.0"
+		"react-dom": "^19.2.0",
+		"react-router": "^7.10.0",
+		"react-router-dom": "^7.10.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.39.1",
