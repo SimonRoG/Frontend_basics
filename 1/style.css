@@ -15,7 +15,7 @@ html {
 	margin: auto;
 	background-color: var(--bg);
 	color: var(--text);
-	font: 100 15px sans-serif;
+	font: 15px normal sans-serif;
 }
 
 img {
