@@ -1,32 +1,47 @@
+:root {
+	--bg: #ffffff;
+	--text: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #1e1e1e;
+		--text: #d4d4d4;
+	}
+}
+
 html {
-    max-width: 1000px;
-    margin: auto;
+	max-width: 1000px;
+	margin: auto;
+	background-color: var(--bg);
+	color: var(--text);
+	font: 100 15px sans-serif;
 }
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 #education,
 #education2 {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .changed1 {
-    background-color: orange;
+	background-color: orange;
 }
 
 .changed2 {
-    background-color: coral;
+	background-color: coral;
 }
 
 #btns {
-    margin: 20px 0;
-    width: 100%;
-    display: flex;
-    gap: 20px;
+	margin: 20px 0;
+	width: 100%;
+	display: flex;
+	gap: 20px;
 
-    button {
-        flex: auto;
-    }
+	button {
+		flex: auto;
+	}
 }
