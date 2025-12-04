@@ -1,12 +1,20 @@
 :root {
 	--bg: #ffffff;
 	--text: #000000;
+	--green1: #71f66e;
+	--yellow1: #faf3b4;
+	--purple1: #9291ed;
+	--blue1: #ade4f6;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--bg: #1e1e1e;
 		--text: #d4d4d4;
+		--green1: #4da94b;
+		--yellow1: #ada87c;
+		--purple1: #6262a0;
+		--blue1: #779da9;
 	}
 }
 
