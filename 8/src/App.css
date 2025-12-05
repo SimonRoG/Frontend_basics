@@ -17,3 +17,137 @@ html {
 	color: var(--text);
 	font: normal 15px sans-serif;
 }
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	ul {
+		display: flex;
+		list-style: none;
+		gap: 25px;
+		text-transform: uppercase;
+	}
+}
+
+#start {
+	background-image: url(https://placehold.co/2000x2000/cccccc/aaaaaa?text=cat);
+
+	height: 600px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+}
+
+#gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+	transform: translate(0, -50%);
+	height: 100px;
+
+	img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+#favpet {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #faf9ff;
+	margin: 0 10%;
+	padding: 2%;
+
+	h3 {
+		margin: 0;
+	}
+}
+
+#network {
+	display: flex;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		flex-direction: column;
+	}
+}
+
+#video {
+	margin: 0 15%;
+	text-align: center;
+
+	video {
+		width: 100%;
+	}
+}
+
+#adopt {
+	text-align: center;
+	background-color: #faf9ff;
+
+	#steps {
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 15px;
+
+		div {
+			flex: 1;
+			text-align: start;
+		}
+	}
+}
+
+#guardians {
+	text-align: center;
+
+	#humans {
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 15px;
+
+		div {
+			flex: 1;
+			text-align: center;
+			background-color: #faf9ff;
+
+			img {
+				width: 100px;
+				height: 100px;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+		}
+	}
+}
+
+footer {
+	background-image: url(https://placehold.co/2000x2000/cccccc/aaaaaa?text=dog);
+
+	height: 300px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
