@@ -12,9 +12,9 @@ function App() {
 					<ul>
 						<li><a href="#start">Home</a></li>
 						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#adopt">Adopt</a></li>
+						<li><a href="#network">Network</a></li>
 						<li><a href="#guardians">Guardians</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#footer">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -129,7 +129,7 @@ function App() {
 					</div>
 				</div>
 			</main>
-			<footer>
+			<footer id="footer">
 				<h3>Want to help? Become a Volunteer</h3>
 				<p>
 					Officia qui qui rem tempore non impedit accusantium minima ut. Quo est quaerat voluptatem nemo qui. Vel velit fuga. Et corporis consequuntur omnis eos sint soluta facere dolores. Est ut alias quis velit beatae dolor suscipit eaque soluta. Est sunt unde quod aut sed quidem iste ipsa dolore.

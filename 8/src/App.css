@@ -10,7 +10,14 @@
 	}
 }
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html {
+	position: relative;
 	max-width: 1000px;
 	margin: auto;
 	background-color: var(--bg);
@@ -19,32 +26,64 @@ html {
 }
 
 header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: white;
+
 
 	ul {
 		display: flex;
 		list-style: none;
 		gap: 25px;
 		text-transform: uppercase;
+
+		a {
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+		}
 	}
 }
 
 #start {
-	background-image: url(https://placehold.co/2000x2000/cccccc/aaaaaa?text=cat);
-
-	height: 600px;
-
+	background-image: url(https://placehold.co/2000x2000/888888/aaaaaa?text=cat);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 
+	height: 600px;
+
 	display: flex;
 	justify-content: center;
 	align-items: start;
 	flex-direction: column;
+	padding: 0 10%;
+	color: white;
+
+	h1 {
+		margin: 0 0 10px 0;
+	}
+
+	p {
+		margin: 0 0 10px 0;
+	}
+
+	button {
+		padding: 10px 20px;
+		border: none;
+		border-radius: 0;
+		cursor: pointer;
+		text-transform: uppercase;
+		background-color: white;
+		color: black;
+	}
 }
 
 #gallery {
