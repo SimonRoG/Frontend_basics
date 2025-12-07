@@ -47,7 +47,8 @@ function App() {
 					</div>
 				</div>
 				<div id="video">
-					<video src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls></video>
+					<video src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" poster="https://placehold.co/1920x1080" controls>
+					</video>
 					<h4>Watch this video how they live here</h4>
 					<p>
 						Molestias natus nihil consequatur. Voluptatem omnis similique dicta omnis quo beatae amet. Fuga est sunt sed.
