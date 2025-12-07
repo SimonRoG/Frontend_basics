@@ -90,7 +90,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #faf9ff;
+	background-color: #2b00ff06;
 	margin: 0 10%;
 	padding: 2%;
 
@@ -121,7 +121,7 @@ header {
 
 #adopt {
 	text-align: center;
-	background-color: #faf9ff;
+	background-color: #2b00ff06;
 
 	#steps {
 		display: flex;
@@ -148,7 +148,7 @@ header {
 		div {
 			flex: 1;
 			text-align: center;
-			background-color: #faf9ff;
+			background-color: #2b00ff06;
 
 			img {
 				width: 100px;
