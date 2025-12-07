@@ -1,0 +1,64 @@
+#guardians {
+	text-align: center;
+	width: 900px;
+	margin: 50px auto;
+
+	h2 {
+		margin: 0 0 10px 0;
+	}
+
+	p {
+		margin: 0 0 30px 0;
+	}
+
+	#humans {
+		display: flex;
+		justify-content: start;
+		align-items: start;
+		gap: 30px;
+		width: 100%;
+		overflow-x: scroll;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		div {
+			padding: 20px;
+			min-width: 280px;
+			text-align: center;
+			background-color: #2b00ff06;
+			border: #2b00ff0a solid 2px;
+			border-radius: 10px;
+
+			img {
+				margin: 0 0 15px 0;
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+
+			p {
+				margin: 0 0 10px 0;
+			}
+		}
+	}
+
+	#pages {
+		text-align: center;
+
+		button {
+			width: 10px;
+			height: 10px;
+			margin: 20px 5px;
+			border: none;
+			border-radius: 0;
+			cursor: pointer;
+		}
+
+		button.active {
+			background-color: #f9b700;
+		}
+	}
+}

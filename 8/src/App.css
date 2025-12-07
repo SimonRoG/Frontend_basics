@@ -190,30 +190,6 @@ header {
 	}
 }
 
-#guardians {
-	text-align: center;
-
-	#humans {
-		display: flex;
-		justify-content: center;
-		align-items: start;
-		gap: 15px;
-
-		div {
-			flex: 1;
-			text-align: center;
-			background-color: #2b00ff06;
-
-			img {
-				width: 100px;
-				height: 100px;
-				object-fit: cover;
-				border-radius: 50%;
-			}
-		}
-	}
-}
-
 footer {
 	background-image: url(https://placehold.co/2000x2000/cccccc/aaaaaa?text=dog);
 

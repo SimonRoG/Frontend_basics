@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Gallery from './components/Gallery.jsx'
+import Guardians from './components/Guardians.jsx'
 import Cat from './assets/cat.svg?react';
 
 function App() {
@@ -92,39 +93,7 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div id="guardians">
-					<h2>Testimonials from our guardians</h2>
-					<p>
-						Who are in extremely love with eco friendly system
-					</p>
-					{/* x3 */}
-					<div id="humans">
-						<div>
-							<img src="https://placehold.co/100x100" alt="" />
-							<p>
-								Totam omnis ex impedit. Ducimus sequi aspernatur et est dicta pariatur provident. Cupiditate porro at voluptatem explicabo error sit neque et. Ut omnis est.
-							</p>
-							<h4>Colleen Herman</h4>
-							<p>Dynamic Tactics Supervisor</p>
-						</div>
-						<div>
-							<img src="https://placehold.co/100x100" alt="" />
-							<p>
-								Totam omnis ex impedit. Ducimus sequi aspernatur et est dicta pariatur provident. Cupiditate porro at voluptatem explicabo error sit neque et. Ut omnis est.
-							</p>
-							<h4>Colleen Herman</h4>
-							<p>Dynamic Tactics Supervisor</p>
-						</div>
-						<div>
-							<img src="https://placehold.co/100x100" alt="" />
-							<p>
-								Totam omnis ex impedit. Ducimus sequi aspernatur et est dicta pariatur provident. Cupiditate porro at voluptatem explicabo error sit neque et. Ut omnis est.
-							</p>
-							<h4>Colleen Herman</h4>
-							<p>Dynamic Tactics Supervisor</p>
-						</div>
-					</div>
-				</div>
+				<Guardians />
 			</main>
 			<footer id="footer">
 				<h2>Want to help? Become a Volunteer</h2>
