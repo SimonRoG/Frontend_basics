@@ -34,7 +34,7 @@ function App() {
 					<button>Fill Adoption Form</button>
 				</div>
 				<div id="network">
-					<img src="https://placehold.co/500x300" alt="" />
+					<img src="https://placehold.co/500x400" alt="" />
 					<div>
 						<h3>Globally Connected by Large Network</h3>
 						<p>
