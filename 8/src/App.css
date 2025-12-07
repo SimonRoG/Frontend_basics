@@ -52,9 +52,9 @@ header {
 }
 
 #start {
-	background-image: url(https://placehold.co/2000x2000/888888/aaaaaa?text=cat);
+	background-image: url(https://placehold.co/3840x2160/888888/aaaaaa?text=cat);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -191,11 +191,11 @@ header {
 }
 
 footer {
-	background-image: url(https://placehold.co/2000x2000/cccccc/aaaaaa?text=dog);
+	background-image: url(https://placehold.co/3840x2160/cccccc/aaaaaa?text=dog);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1000px;
 	height: 300px;
 	display: flex;
 	justify-content: center;
