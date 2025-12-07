@@ -91,11 +91,20 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #2b00ff06;
-	margin: 0 10%;
+	margin: 50px 10%;
 	padding: 2%;
 
 	h3 {
 		margin: 0;
+	}
+
+	button {
+		border: none;
+		border-radius: 0;
+		cursor: pointer;
+		background-color: #f9b700;
+		padding: 10px 20px;
+		color: white;
 	}
 }
 
