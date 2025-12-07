@@ -86,21 +86,6 @@ header {
 	}
 }
 
-#gallery {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 0;
-	transform: translate(0, -50%);
-	height: 100px;
-
-	img {
-		width: 200px;
-		height: 200px;
-		object-fit: cover;
-	}
-}
-
 #favpet {
 	display: flex;
 	justify-content: space-between;

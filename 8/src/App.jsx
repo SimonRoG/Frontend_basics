@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import Gallery from './components/Gallery.jsx'
 
 function App() {
 	return (
@@ -27,13 +28,7 @@ function App() {
 					</p>
 					<button>Find a pet to adopt</button>
 				</div>
-				<div id="gallery">
-					{/* x4 */}
-					<img src="https://placehold.co/200x200?text=cat" alt="cat" />
-					<img src="https://placehold.co/200x200?text=dog" alt="dog" />
-					<img src="https://placehold.co/200x200?text=cat" alt="cat" />
-					<img src="https://placehold.co/200x200?text=dog" alt="dog" />
-				</div>
+				<Gallery />
 				<div id="favpet">
 					<h3>Please select your favourite pet</h3>
 					<button>Fill Adoption Form</button>

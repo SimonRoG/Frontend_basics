@@ -1,0 +1,31 @@
+#gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+	transform: translate(0, -50%);
+	height: 100px;
+
+	img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+#gallerypages {
+	text-align: center;
+
+	button {
+		width: 10px;
+		height: 10px;
+		margin: 20px 5px;
+		border: none;
+		border-radius: 0;
+		cursor: pointer;
+	}
+
+	button.active {
+		background-color: #f9b700;
+	}
+}
