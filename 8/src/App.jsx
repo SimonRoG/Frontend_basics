@@ -1,13 +1,14 @@
 import React from 'react'
 import './App.css'
 import Gallery from './components/Gallery.jsx'
+import Cat from './assets/cat.svg?react';
 
 function App() {
 	return (
 		<>
 			<header>
 				<div id="logo">
-					<h3>PetShelter</h3>
+					<h2>PetShelter</h2>
 				</div>
 				<nav>
 					<ul>
@@ -30,13 +31,13 @@ function App() {
 				</div>
 				<Gallery />
 				<div id="favpet">
-					<h3>Please select your favourite pet</h3>
+					<h2>Please select your favourite pet</h2>
 					<button>Fill Adoption Form</button>
 				</div>
 				<div id="network">
 					<img src="https://placehold.co/500x400" alt="" />
 					<div>
-						<h3>Globally Connected by Large Network</h3>
+						<h2>Globally Connected by Large Network</h2>
 						<p>
 							We are here to listen from you deliver excellence
 						</p>
@@ -55,35 +56,35 @@ function App() {
 					</p>
 				</div>
 				<div id="adopt">
-					<h3>Process to adopt a pet</h3>
+					<h2>Process to adopt a pet</h2>
 					<p>
 						Who are in extremely love with eco friendly system
 					</p>
 					{/* x4 */}
 					<div id="steps">
 						<div>
-							<img src="https://placehold.co/100x100" alt="" />
+							<Cat className="svg" />
 							<h4>Pet Selection</h4>
 							<p>
 								Quo esse maxime facilis ut aspernatur dolores minima aut. Dolores consequatur illo. Fugit explicabo quibusdam et delectus sunt. Velit ut dolorum architecto iure non sit quas earum. Est laudantium quisquam veniam ut recusandae. Praesentium dolores sit quia qui impedit.
 							</p>
 						</div>
 						<div>
-							<img src="https://placehold.co/100x100" alt="" />
+							<Cat className="svg" />
 							<h4>Meeting Authority</h4>
 							<p>
 								Dolores iusto harum laborum temporibus neque. Repudiandae voluptas sed. Maxime porro asperiores soluta. Deserunt accusamus vel dolores quas molestiae magni et totam.
 							</p>
 						</div>
 						<div>
-							<img src="https://placehold.co/100x100" alt="" />
+							<Cat className="svg" />
 							<h4>Adoption Form Filling</h4>
 							<p>
 								Vel sequi aliquam ut. Eligendi et dolorem reiciendis id accusamus voluptatum illo. Fugiat dicta ipsum et. Ratione expedita aliquam omnis. Aut non magni omnis omnis cum veniam eligendi sapiente ut. Molestias iure nihil quo unde voluptas ut.
 							</p>
 						</div>
 						<div>
-							<img src="https://placehold.co/100x100" alt="" />
+							<Cat className="svg" />
 							<h4>Bring to new family</h4>
 							<p>
 								Ipsa sunt perferendis facere est quisquam et placeat nulla. Sunt in eius ut ea aliquid molestiae et iusto. Sed at corrupti eum. Iusto nihil labore debitis non qui aut qui molestiae dolor.
@@ -92,7 +93,7 @@ function App() {
 					</div>
 				</div>
 				<div id="guardians">
-					<h3>Testimonials from our guardians</h3>
+					<h2>Testimonials from our guardians</h2>
 					<p>
 						Who are in extremely love with eco friendly system
 					</p>
@@ -126,7 +127,7 @@ function App() {
 				</div>
 			</main>
 			<footer id="footer">
-				<h3>Want to help? Become a Volunteer</h3>
+				<h2>Want to help? Become a Volunteer</h2>
 				<p>
 					Officia qui qui rem tempore non impedit accusantium minima ut. Quo est quaerat voluptatem nemo qui. Vel velit fuga. Et corporis consequuntur omnis eos sint soluta facere dolores. Est ut alias quis velit beatae dolor suscipit eaque soluta. Est sunt unde quod aut sed quidem iste ipsa dolore.
 				</p>
