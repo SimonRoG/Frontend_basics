@@ -5,17 +5,11 @@ import './css/Gallery.css';
 import { useState, useRef, useEffect } from "react";
 
 const Gallery = () => {
-	const images = [
-		{ src: "https://placehold.co/200x200?text=cat1", alt: "cat1" },
-		{ src: "https://placehold.co/200x200?text=dog2", alt: "dog2" },
-		{ src: "https://placehold.co/200x200?text=cat3", alt: "cat3" },
-		{ src: "https://placehold.co/200x200?text=dog4", alt: "dog4" },
-		{ src: "https://placehold.co/200x200?text=cat5", alt: "cat5" },
-		{ src: "https://placehold.co/200x200?text=dog6", alt: "dog6" },
-		{ src: "https://placehold.co/200x200?text=cat7", alt: "cat7" },
-		{ src: "https://placehold.co/200x200?text=dog8", alt: "dog8" },
-		{ src: "https://placehold.co/200x200?text=cat9", alt: "cat9" }
-	];
+	const images = Object.entries(import.meta.glob('../assets/gallery/*.jpg', { eager: true }))
+		.map(([path, module], index) => ({
+			src: module.default,
+			alt: `image ${index + 1}`
+		}))
 
 	const imagesPerPage = 4;
 	const [page, setPage] = useState(0);

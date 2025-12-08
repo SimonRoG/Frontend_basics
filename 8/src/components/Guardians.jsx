@@ -1,13 +1,18 @@
 import { React, useState, useRef, useEffect } from "react";
 import './css/Guardians.css';
+import ColleenHermanImg from '../assets/humans/ColleenHerman.jpg';
+import DoreenStevensImg from '../assets/humans/DoreenStevens.jpg';
+import LesterRichardsImg from '../assets/humans/LesterRichards.jpg';
+import JudyMccoyImg from '../assets/humans/JudyMccoy.jpg';
+import MildredMccoyImg from '../assets/humans/MildredMccoy.jpg';
 
 function Guardians() {
 	const humans = [
-		{ name: "Colleen Herman", role: "Dynamic Tactics Supervisor", text: "Totam omnis ex impedit. Ducimus sequi aspernatur et est dicta pariatur provident. Cupiditate porro at voluptatem explicabo error sit neque et. Ut omnis est.", img: "https://placehold.co/100x100?text=Colleen%5CnHerman" },
-		{ name: "Doreen Stevens", role: "International Applications Consultant", text: "Maxime quas rerum distinctio voluptas facere qui ea. Qui perferendis odio rerum dignissimos consequatur quam omnis quasi qui. Eum totam dicta odio sed velit.", img: "https://placehold.co/100x100?text=Doreen%5CnStevens" },
-		{ name: "Lester Richards", role: "Forward Research Executive", text: "Dolorem quo reprehenderit veniam quidem officiis. Sapiente culpa enim error sunt enim tempore deserunt sit ad. Eos aut dolor.", img: "https://placehold.co/100x100?text=Lester%5CnRichards" },
-		{ name: "Judy Mccoy", role: "Dynamic Tactics Supervisor", text: "Est voluptatibus voluptatum. Commodi consequatur tempore voluptatem et enim. Et ea suscipit. Optio assumenda nostrum beatae ullam in explicabo quia placeat omnis.", img: "https://placehold.co/100x100?text=Judy%5CnMccoy" },
-		{ name: "Mildred Mccoy", role: "Dynamic Tactics Supervisor", text: "Vel nihil excepturi architecto. Quaerat ut quam. Velit sit quaerat nisi necessitatibus aut.", img: "https://placehold.co/100x100?text=Mildred%5CnMccoy" }
+		{ name: "Colleen Herman", role: "Dynamic Tactics Supervisor", text: "Totam omnis ex impedit. Ducimus sequi aspernatur et est dicta pariatur provident. Cupiditate porro at voluptatem explicabo error sit neque et. Ut omnis est.", img: ColleenHermanImg },
+		{ name: "Doreen Stevens", role: "International Applications Consultant", text: "Maxime quas rerum distinctio voluptas facere qui ea. Qui perferendis odio rerum dignissimos consequatur quam omnis quasi qui. Eum totam dicta odio sed velit.", img: DoreenStevensImg },
+		{ name: "Lester Richards", role: "Forward Research Executive", text: "Dolorem quo reprehenderit veniam quidem officiis. Sapiente culpa enim error sunt enim tempore deserunt sit ad. Eos aut dolor.", img: LesterRichardsImg },
+		{ name: "Judy Mccoy", role: "Dynamic Tactics Supervisor", text: "Est voluptatibus voluptatum. Commodi consequatur tempore voluptatem et enim. Et ea suscipit. Optio assumenda nostrum beatae ullam in explicabo quia placeat omnis.", img: JudyMccoyImg },
+		{ name: "Mildred Mccoy", role: "Dynamic Tactics Supervisor", text: "Vel nihil excepturi architecto. Quaerat ut quam. Velit sit quaerat nisi necessitatibus aut.", img: MildredMccoyImg }
 	];
 
 	const humansPerPage = 3;

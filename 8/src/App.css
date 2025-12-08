@@ -52,7 +52,7 @@ header {
 }
 
 #start {
-	background-image: url(https://placehold.co/3840x2160/888888/aaaaaa?text=cat);
+	background-image: url(assets/catstart.jpg);
 	background-attachment: fixed;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -173,12 +173,30 @@ header {
 			text-align: start;
 
 			.svg {
-				width: 60px;
-				height: 60px;
+				width: 50px;
+				height: 50px;
+				margin: 15px 0;
 				object-fit: cover;
 
+				circle,
+				rect,
+				ellipse,
+				polygon,
+				line,
+				path {
+					stroke: var(--text);
+				}
+			}
+
+			.svg.filled {
+				circle,
+				rect,
+				ellipse,
+				polygon,
+				line,
 				path {
 					fill: var(--text);
+					stroke: none;
 				}
 			}
 
@@ -191,7 +209,7 @@ header {
 }
 
 footer {
-	background-image: url(https://placehold.co/3840x2160/cccccc/aaaaaa?text=dog);
+	background-image: url(assets/dogfooter.jpg);
 	background-attachment: fixed;
 	background-position: center bottom;
 	background-repeat: no-repeat;

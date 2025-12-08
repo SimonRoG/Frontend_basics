@@ -2,7 +2,11 @@ import React from 'react'
 import './App.css'
 import Gallery from './components/Gallery.jsx'
 import Guardians from './components/Guardians.jsx'
-import Cat from './assets/cat.svg?react';
+import dognetwork from './assets/dognetwork.jpg';
+import UserSvg from './assets/svg/user.svg?react';
+import LikeSvg from './assets/svg/like.svg?react';
+import DocumentSvg from './assets/svg/document.svg?react';
+import MagicSvg from './assets/svg/magic.svg?react';
 
 function App() {
 	return (
@@ -36,7 +40,7 @@ function App() {
 					<button>Fill Adoption Form</button>
 				</div>
 				<div id="network">
-					<img src="https://placehold.co/500x400" alt="" />
+					<img src={dognetwork} alt="Dog Network" />
 					<div>
 						<h2>Globally Connected by Large Network</h2>
 						<p>
@@ -49,7 +53,7 @@ function App() {
 					</div>
 				</div>
 				<div id="video">
-					<video src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" poster="https://placehold.co/1920x1080" controls>
+					<video src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" poster="https://placehold.co/1920x1080?text=Video%20Thumbnail%20Placeholder" controls>
 					</video>
 					<h4>Watch this video how they live here</h4>
 					<p>
@@ -64,28 +68,28 @@ function App() {
 					{/* x4 */}
 					<div id="steps">
 						<div>
-							<Cat className="svg" />
+							<LikeSvg className="svg filled" />
 							<h4>Pet Selection</h4>
 							<p>
 								Quo esse maxime facilis ut aspernatur dolores minima aut. Dolores consequatur illo. Fugit explicabo quibusdam et delectus sunt. Velit ut dolorum architecto iure non sit quas earum. Est laudantium quisquam veniam ut recusandae. Praesentium dolores sit quia qui impedit.
 							</p>
 						</div>
 						<div>
-							<Cat className="svg" />
+							<UserSvg className="svg" />
 							<h4>Meeting Authority</h4>
 							<p>
 								Dolores iusto harum laborum temporibus neque. Repudiandae voluptas sed. Maxime porro asperiores soluta. Deserunt accusamus vel dolores quas molestiae magni et totam.
 							</p>
 						</div>
 						<div>
-							<Cat className="svg" />
+							<DocumentSvg className="svg" />
 							<h4>Adoption Form Filling</h4>
 							<p>
 								Vel sequi aliquam ut. Eligendi et dolorem reiciendis id accusamus voluptatum illo. Fugiat dicta ipsum et. Ratione expedita aliquam omnis. Aut non magni omnis omnis cum veniam eligendi sapiente ut. Molestias iure nihil quo unde voluptas ut.
 							</p>
 						</div>
 						<div>
-							<Cat className="svg" />
+							<MagicSvg className="svg" />
 							<h4>Bring to new family</h4>
 							<p>
 								Ipsa sunt perferendis facere est quisquam et placeat nulla. Sunt in eius ut ea aliquid molestiae et iusto. Sed at corrupti eum. Iusto nihil labore debitis non qui aut qui molestiae dolor.
