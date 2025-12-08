@@ -8,6 +8,18 @@
 		--bg: #1e1e1e;
 		--text: #d4d4d4;
 	}
+
+	a {
+		color: #4ea1ff;
+	}
+
+	a:visited {
+		color: #a18fff;
+	}
+
+	a:active {
+		color: #ffae4e;
+	}
 }
 
 html {
